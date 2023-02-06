@@ -1,0 +1,4 @@
+pip install virtualenv
+
+virtualenv env #env es el proyecto
+source env/bin/activate #activamos el proyecto
