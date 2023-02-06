@@ -2,3 +2,7 @@ pip install virtualenv
 
 virtualenv env #env es el proyecto
 source env/bin/activate #activamos el proyecto
+
+#ejecuta git y crea un un rama principal
+pip install -r requirementes.txt #instala lo que este el documento con pip
+django-admin startproject core . #creo el proyecto core
